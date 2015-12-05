@@ -9,9 +9,18 @@
   text-transform: uppercase;
 }
 
+.nav li {
+  display: inline;
+}
+
 .jumbotron {
   height: 500px;
   background-image: url('https://goo.gl/04j7Nn');
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 100px;
 }
 
 .jumbotron h1 {
